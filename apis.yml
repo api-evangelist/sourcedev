@@ -1,7 +1,16 @@
 aid: sourcedev
 name: Source.dev
-description: Source.dev is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Source.dev builds AI-native software tooling that helps device manufacturers
+  develop, build, and update the operating systems that run intelligent devices
+  such as smartphones and electric vehicles. Its platform virtualizes source
+  access (SourceFS) to cut Android checkout-and-build times from hours to
+  minutes, replays build steps across languages and systems for faster CI, and
+  uses LLM-driven merging (Harmony AI / Continuous Merges) to automatically
+  resolve conflicts when applying security patches and OS upgrades to large,
+  long-lived codebases like AOSP. The company is a sales/demo-led platform for
+  device makers and does not currently publish a public developer API, SDK, or
+  self-serve documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/sourcedev/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +18,51 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/68d10e319cff90a818936956/68f14d0766f36917b069a026_source-og.jpg
 tags:
 - Company
+- Developer Tools
+- Build Systems
+- Android
+- AOSP
+- DevOps
+- Continuous Integration
+- Embedded
+- Automotive
+- Artificial Intelligence
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sourcedev-domain-security.yml
 - type: Website
-  url: http://source.dev
+  url: https://www.source.dev
+- type: Blog
+  url: https://www.source.dev/journal
+- type: GitHubOrganization
+  url: https://github.com/sourcedotdev
+- type: Support
+  url: https://www.source.dev/contact
